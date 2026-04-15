@@ -1,0 +1,2 @@
+route -n add -net 224.0.0.0 netmask 224.0.0.0 dev eno1
+python main.py

@@ -1,0 +1,10 @@
+<root>
+    <sock_multicast_group>224.0.255.30</sock_multicast_group>
+    <sock_multicast_send_port>5030</sock_multicast_send_port>
+    <sock_multicast_rcv_port>5031</sock_multicast_rcv_port>
+    <sock_send_ip>127.0.0.1</sock_send_ip>
+    <sock_send_port>2222</sock_send_port>
+    <sock_rcv_port>9000</sock_rcv_port>
+    <live_max_samples_all>200</live_max_samples_all>
+    <live_max_samples_selected>20</live_max_samples_selected>
+</root>

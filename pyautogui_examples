@@ -1,0 +1,99 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jul 12 13:38:21 2024
+
+@author: root
+"""
+
+import pyautogui
+import time
+
+
+# Move the mouse to coordinates (x, y) over 1.5 seconds
+# pyautogui.moveTo(50, 50, duration=1.5)
+
+# Move the mouse relative to the current position
+# pyautogui.move(100, 0, duration=0.5)  # Move right 100 pixels over 0.5 seconds
+
+
+
+
+# screenshot = pyautogui.screenshot()  # Take a screenshot
+# screenshot.save('screenshot.png')
+
+# pyautogui.typewrite('Hello, World!')  # Type 'Hello, World!' at the current mouse position
+# pyautogui.hotkey('ctrl', 'c')  # Simulate pressing Ctrl+C
+
+# Locate an image on the screen and get its coordinates
+# button_location = pyautogui.locateOnScreen('button.png')Hello, World!
+
+# pyautogui.scroll(10)  # Scroll up 10 "clicks"
+
+# Drag from one position to another
+# pyautogui.dragTo(100,100, duration=1.0)  # Drag to coordinates (x, y) over 1 second
+
+# screen_width, screen_height = pyautogui.size()
+# print(f"Screen size: {screen_width} x {screen_height}")
+
+
+# while True:
+#     current_mouse_x, current_mouse_y = pyautogui.position()
+#     print(f"Current mouse position: ({current_mouse_x}, {current_mouse_y})")
+#     time.sleep(1)
+
+time.sleep(6)
+# pyautogui.moveTo(1200, 100, duration=1.0)
+# pyautogui.doubleClick()
+# pyautogui.typewrite('200') 
+# pyautogui.moveTo(1300, 100, duration=1.0)
+# pyautogui.click(1300, 100)  # Click the mouse at coordinates (x, y)
+# time.sleep(6)
+# pyautogui.click(1300, 100)  # Click the mouse at coordinates (x, y)
+
+
+# Getting the Mouse Position:
+
+
+# Waiting for a Specific Image to Appear on Screen:
+# Wait up to 10 seconds for an image to appear on the screen
+# button_location_centre = pyautogui.locateCenterOnScreen('periodic.png')
+# print("button_location_centre:", button_location_centre)
+button_location = pyautogui.locateOnScreen('periodic.png')
+if button_location:
+    print("Button found at location:", button_location)
+    # pyautogui.click(button_location)
+else:
+    print("Button not found")
+
+# Moving the Mouse in a Smooth Path:
+# Move the mouse in a smooth curve path
+# pyautogui.moveTo(700, 100, duration=1.0)
+# pyautogui.moveTo(800, 100, duration=1.0)
+# pyautogui.moveTo(900, 100, duration=1.0)
+
+# pyautogui.click(1600, 100)  # Click the mouse at coordinates (x, y)
+# pyautogui.doubleClick()  # Double-click the mouse at the current mouse position
+
+
+
+# Simulating Keyboard Shortcuts:
+# Simulating Keyboard Shortcuts:
+
+# pyautogui.hotkey('ctrl', 'c')  # Simulate pressing Ctrl+C
+# pyautogui.hotkey('ctrl', 'v')  # Simulate pressing Ctrl+V
+
+# Hello, World!Taking a Screenshot of a Specific Region:
+
+# Capture a screenshot of a specific region
+# screenshot = pyautogui.screenshot(region=(0, 0, 300, 400))  # (left, top, width, height)
+# screenshot.save('region_screenshot.png')
+
+# pyautogui.hotkey('ctrl', 'c')  # Simulate pressing Ctrl+C
+# pyautogui.hotkey('ctrl', 'v')  # Simulate pressing Ctrl+V
+
+# Hello, World!Taking a Screenshot of a Specific Region:
+
+# Capture a screenshot of a specific region
+# screenshot = pyautogui.screenshot(region=(1257,92, 92, 23))  # (left, top, width, height)
+# screenshot.save('periodic.png')
