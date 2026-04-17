@@ -1,0 +1,8 @@
+{
+    "Interface": "any",
+    "Server_IP": "192.168.2.111",
+    "Server_Port": "11095",
+    "mode": "udp",
+    "application_receiving_port": "2224",
+    "tcp_header_length": "48"
+}
