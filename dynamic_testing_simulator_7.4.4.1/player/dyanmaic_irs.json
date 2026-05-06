@@ -1,0 +1,639 @@
+{
+    "track_no": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "UINT_16",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "identity": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "IDENTIFICATION1-Hostile\n2-Unknown\n3-Friendly\n1-3",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "identified_by": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "TRACK_IDENTIFIED_BY0- Auto\n1- Manual\n2- GCS Owned 0-2",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "aircraft_category": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "AIRCRAFT_CATEGORYUnknown      : 0 (default)\nFighter         : 1\nTransport     : 2\nHelicopter    : 3 \nUAV             : 4\nSatellite       : 5\nSea surface              : 6\nAir breathing            : 7\nNon air breathing       : 8\nDecoy                      : 9\nUnknown Aircraft     : 10\nUnknown Missile      : 11\nSubsonic Missile       : 12\nSupersonic Missile    : 13\nFixed wings support : 14\nDrone: 15\n1-14",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "is_correlated": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "BOOL0 - No\n1 - yes  \n\n0- Failure\n1- Success   \n\n0- Blocked\n1- Unblocked \n\n0- Auto\n1- Manual \n\n0 - initial/modified FP. In case of collision fp shall not be saved .\n1 - forcefully saving of collided FP for manual approval/rejection by Node.\n\n0- Stop\n1- Start-",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "mission_drone_id": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "UINT_16",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "action_type": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "ACTION_TYPE0 - NA\n1 - Add   \n2 - Edit\n3 - Delete\n \n-",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "entity_type": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "ENTITY_TYPE1- ASAC\n2- ISAC\n3- AGENCY\n4- INDRI\n5- GCS\n6- RADAR\n7- PASSIVE SENSOR\n8- CUAS\n9- TACTICAL AREA\n10- INDRI INPUT SOURCE\n11- EXTERNAL SYSTEM \n12- SCENARIO\n13- USER\n14- SYSTEM CONFIGURATION\n15- TRACK FILTERS \n16- ASAC IP \n17- Block-Unblock ADCRS Tracks \n18- DRONE MISSION\n-",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "entity_id": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "UINT_16",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "indri_id": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "SAC",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "indri_name": {
+        "bitField": 0,
+        "AttributeFormat": "30s",
+        "irsValue": "STRING_30",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "no_of_indri_input_source": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "indri_input_source": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "INDRI_INPUT_SOURCE1- GCS\n2- RADAR\n3- EW\n4- CUAS1-4",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "input_source_type_id": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "ip_address": {
+        "bitField": 0,
+        "AttributeFormat": "32s",
+        "irsValue": "IP_ADDRESS--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "latitude": {
+        "bitField": 0,
+        "AttributeFormat": "d",
+        "irsValue": "REAL_64",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "longitude": {
+        "bitField": 0,
+        "AttributeFormat": "d",
+        "irsValue": "REAL_64",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "sic": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "SIC1-100",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "serial_no": {
+        "bitField": 0,
+        "AttributeFormat": "30s",
+        "irsValue": "STRING_30",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "cuas_type_id": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "cuas_type": {
+        "bitField": 0,
+        "AttributeFormat": "30s",
+        "irsValue": "STRING_30",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "soft_kill_range": {
+        "bitField": 0,
+        "AttributeFormat": "f",
+        "irsValue": "RANGE--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "hard_kill_range": {
+        "bitField": 0,
+        "AttributeFormat": "f",
+        "irsValue": "RANGE--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "external_entity_type": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "EXTERNAL_ENTITY_TYPE1 - ADCRS SECTION\n2 - ADCRS VAVP   \n3 - ADCRS SENSOR\n4 - ADCRS ADFA\n5 - ADCRS ADFA CLASS STATUS\n6 - ADCRS CONTROL CENTER LOCATION\n \n-",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "external_entity_id": {
+        "bitField": 0,
+        "AttributeFormat": "20s",
+        "irsValue": "STRING_20",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "gcs_type_id": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "gcs_model": {
+        "bitField": 0,
+        "AttributeFormat": "50s",
+        "irsValue": "STRING_50",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "gcs_vendor_name": {
+        "bitField": 0,
+        "AttributeFormat": "50s",
+        "irsValue": "STRING_50",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "gcs_protocol": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "GCS_PROTOCOL1- MAVLINK\n2- PROPRIETARY1-2",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "gcs_role": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "GCS_ROLE1- ISR\n2- Ammn Drop\n3- Kamikaze\n4- Comm Relay\n5- Loitering \n\n \n-",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "range": {
+        "bitField": 0,
+        "AttributeFormat": "f",
+        "irsValue": "RANGE--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "flying_endurance": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "UINT_16",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "affiliated_agency_type": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "AGENCY_TYPE1- CORPS\n2- DIV\n3- BRIGADE\n4- REGIMENT\n5- BATTALION\n6- AHQ\n7- CHQ\n-",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "affiliated_agency_id": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "AGENCY_IDFor Agency Type AHQ,\n1- AHQ\n\nFor Agency Type CHQ,  \n2-Central Command\n3-Eastern Command\n4-Northern Command\n5-Southern Command\n6-South Western Command\n7-Western Command\n8-Training Command \n\nFor other type of Agencies, Agency ID will start from 20.1-5000",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "indri_status": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "BOOL0 - No\n1 - yes  \n\n0- Failure\n1- Success   \n\n0- Blocked\n1- Unblocked \n\n0- Auto\n1- Manual \n\n0 - initial/modified FP. In case of collision fp shall not be saved .\n1 - forcefully saving of collided FP for manual approval/rejection by Node.\n\n0- Stop\n1- Start-",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "no_of_aor_points": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "passive_sensor_type_id": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "passive_sensor_name": {
+        "bitField": 0,
+        "AttributeFormat": "30s",
+        "irsValue": "STRING_30",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "passive_sensor_type": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "PASSIVE_SENSOR_TYPE1- EW\n2- EO\n3- ACOUISTIC\n \n-",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "protocol": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "height": {
+        "bitField": 0,
+        "AttributeFormat": "f",
+        "irsValue": "RANGE--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "radar_type_id": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "radar_type": {
+        "bitField": 0,
+        "AttributeFormat": "30s",
+        "irsValue": "STRING_30",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "range_accuracy": {
+        "bitField": 0,
+        "AttributeFormat": "f",
+        "irsValue": "RANGE--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "azimuth_accuracy": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "BEARING0-359",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "minimum_range": {
+        "bitField": 0,
+        "AttributeFormat": "f",
+        "irsValue": "RANGE--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "maximum_range": {
+        "bitField": 0,
+        "AttributeFormat": "f",
+        "irsValue": "RANGE--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "scan_time": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "TIME_DURATION_IN_SEC--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "max_elevation": {
+        "bitField": 0,
+        "AttributeFormat": "b",
+        "irsValue": "INT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_min_speed": {
+        "bitField": 0,
+        "AttributeFormat": "f",
+        "irsValue": "SPEED--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_max_speed": {
+        "bitField": 0,
+        "AttributeFormat": "f",
+        "irsValue": "SPEED--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_min_height": {
+        "bitField": 0,
+        "AttributeFormat": "f",
+        "irsValue": "RANGE--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_max_height": {
+        "bitField": 0,
+        "AttributeFormat": "f",
+        "irsValue": "RANGE--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_manuever_rate": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_height_accuracy": {
+        "bitField": 0,
+        "AttributeFormat": "f",
+        "irsValue": "RANGE--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_speed_accuracy": {
+        "bitField": 0,
+        "AttributeFormat": "f",
+        "irsValue": "SPEED--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_course_accuracy": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "BEARING0-359",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_azimuth_resolution": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_range_resolution": {
+        "bitField": 0,
+        "AttributeFormat": "I",
+        "irsValue": "UINT_32",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_pod": {
+        "bitField": 0,
+        "AttributeFormat": "f",
+        "irsValue": "PERCENTAGE0-100",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_north_misalignment": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_tilt": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "BEARING0-359",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_tilt_bearing": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "BEARING0-359",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_no_of_reporting_points": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "UINT_16",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_nw_delay": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_rdp_delay": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "UINT_16",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_min_elevation": {
+        "bitField": 0,
+        "AttributeFormat": "b",
+        "irsValue": "INT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "s_max_track_capacity": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "sensor_track_no": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "UINT_16",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "external_system_type": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "EXTERNAL_SYSTEM_TYPE1 - AKASHTEER\n2 - SAMA\n3 - BSS\n4 - CACC\n5 - CIDSS\n6 - TRINETRA\n7 - OTHER OIS\n1-7",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "ctn": {
+        "bitField": 0,
+        "AttributeFormat": "5s",
+        "irsValue": "CTN--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "speed": {
+        "bitField": 0,
+        "AttributeFormat": "f",
+        "irsValue": "SPEED--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "course": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "BEARING0-359",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "cat48_buffer": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "cat62_buffer": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "cp_node_id": {
+        "bitField": 0,
+        "AttributeFormat": "5s",
+        "irsValue": "CTN--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "cp_parent_node_id": {
+        "bitField": 0,
+        "AttributeFormat": "5s",
+        "irsValue": "CTN--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "control_order_id": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "UINT_16",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "control_order_type": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "WCO_STATUS1 - Free\n2 - Tight\n3 - Hold Fire\n4 - Cancel Hold Fire-",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "day": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "month": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "year": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "UINT_16",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "hours": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "minutes": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "seconds": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "UINT_8",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "millisecond": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "UINT_16",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "remarks": {
+        "bitField": 0,
+        "AttributeFormat": "250s",
+        "irsValue": "STRING_250",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "rasp_track_no": {
+        "bitField": 0,
+        "AttributeFormat": "5s",
+        "irsValue": "CTN--",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "is_engaged": {
+        "bitField": 0,
+        "AttributeFormat": "B",
+        "irsValue": "BOOL0 - No\n1 - yes  \n\n0- Failure\n1- Success   \n\n0- Blocked\n1- Unblocked \n\n0- Auto\n1- Manual \n\n0 - initial/modified FP. In case of collision fp shall not be saved .\n1 - forcefully saving of collided FP for manual approval/rejection by Node.\n\n0- Stop\n1- Start-",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "indri_parent_agency_id": {
+        "bitField": 0,
+        "AttributeFormat": "H",
+        "irsValue": "AGENCY_IDFor Agency Type AHQ,\n1- AHQ\n\nFor Agency Type CHQ,  \n2-Central Command\n3-Eastern Command\n4-Northern Command\n5-Southern Command\n6-South Western Command\n7-Western Command\n8-Training Command \n\nFor other type of Agencies, Agency ID will start from 20.1-5000",
+        "arg_size": 0,
+        "defaultInput": 0
+    },
+    "adcp_id": {
+        "bitField": 0,
+        "AttributeFormat": "5s",
+        "irsValue": "CTN--",
+        "arg_size": 0,
+        "defaultInput": 0
+    }
+}

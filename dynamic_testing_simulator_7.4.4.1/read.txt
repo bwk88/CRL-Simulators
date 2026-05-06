@@ -1,0 +1,29 @@
+=====================================================================
+Previous version amsm7
+>> [Done] Dyanamic struct with bits 
+>> [Done] To implement static structure
+>> [Done] To integrate the changes made in CBI 1.9.5 version simulator
+>> [Done] To subtract the no of dyanamic structure (-) Button and its implementation (for struct and varible repetation)
+>> 
+
+======================================================================
+Task yet to be completed:
+>> [X] Abality to reorder the test case, messages, test suites in SNS
+>> [X] To add previous test cases as preconditions in SNS
+>> 
+
+
+
+
+
+
+=======================================================================
+Notes : To Developer
+>> Mahaiyo: 	To implement SNS precondition periodic (kindly use SNS>saveandsendperiodic.py to create the widget,  Periodic Page can be visible when clicking periodic button on sns homepage)
+		"self.snsPeriodics = saveSendPeriodic()", Refer this line in SNS.py
+		
+		
+		
+		
+		
+

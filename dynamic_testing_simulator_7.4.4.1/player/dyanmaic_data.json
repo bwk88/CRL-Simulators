@@ -1,0 +1,991 @@
+{
+    "struct_change_track_identity": [
+        {
+            "name": "track_no",
+            "structures": "struct_change_track_identity_list.struct_change_track_identity.track_no",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "identity",
+            "structures": "struct_change_track_identity_list.struct_change_track_identity.identity",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "identified_by",
+            "structures": "struct_change_track_identity_list.struct_change_track_identity.identified_by",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "aircraft_category",
+            "structures": "struct_change_track_identity_list.struct_change_track_identity.aircraft_category",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "is_correlated",
+            "structures": "struct_change_track_identity_list.struct_change_track_identity.is_correlated",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "mission_drone_id",
+            "structures": "struct_change_track_identity_list.struct_change_track_identity.mission_drone_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ],
+    "struct_config_entity_list": [
+        {
+            "name": "action_type",
+            "structures": "struct_config_entity_list.struct_config_entity_list.action_type",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "entity_type",
+            "structures": "struct_config_entity_list.struct_config_entity_list.entity_type",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "entity_id",
+            "structures": "struct_config_entity_list.struct_config_entity_list.entity_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ],
+    "struct_config_indri_input_source": [
+        {
+            "name": "indri_id",
+            "structures": "struct_config_indri_input_source_list.struct_config_indri_input_source.indri_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "indri_name",
+            "structures": "struct_config_indri_input_source_list.struct_config_indri_input_source.indri_name",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "action_type",
+            "structures": "struct_config_indri_input_source_list.struct_config_indri_input_source.action_type",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "no_of_indri_input_source",
+            "structures": "struct_config_indri_input_source_list.struct_config_indri_input_source.no_of_indri_input_source",
+            "dyanamicStruct": "struct_indri_input_source",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "<<NestedStruct>>struct_indri_input_source"
+        }
+    ],
+    "struct_indri_input_source": [
+        {
+            "name": "indri_input_source",
+            "structures": "struct_config_indri_input_source_list.struct_config_indri_input_source.struct_indri_input_source.indri_input_source",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "input_source_type_id",
+            "structures": "struct_config_indri_input_source_list.struct_config_indri_input_source.struct_indri_input_source.input_source_type_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "ip_address",
+            "structures": "struct_config_indri_input_source_list.struct_config_indri_input_source.struct_indri_input_source.ip_address",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "latitude",
+            "structures": "struct_config_indri_input_source_list.struct_config_indri_input_source.struct_indri_input_source.location.latitude",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "longitude",
+            "structures": "struct_config_indri_input_source_list.struct_config_indri_input_source.struct_indri_input_source.location.longitude",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "sic",
+            "structures": "struct_config_indri_input_source_list.struct_config_indri_input_source.struct_indri_input_source.sic",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "serial_no",
+            "structures": "struct_config_indri_input_source_list.struct_config_indri_input_source.struct_indri_input_source.serial_no",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ],
+    "struct_cuas": [
+        {
+            "name": "cuas_type_id",
+            "structures": "struct_config_cuas.struct_cuas.cuas_type_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "cuas_type",
+            "structures": "struct_config_cuas.struct_cuas.cuas_type",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "soft_kill_range",
+            "structures": "struct_config_cuas.struct_cuas.soft_kill_range",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "hard_kill_range",
+            "structures": "struct_config_cuas.struct_cuas.hard_kill_range",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "action_type",
+            "structures": "struct_config_cuas.struct_cuas.action_type",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ],
+    "waypoint_locaton": [
+        {
+            "name": "latitude",
+            "structures": "struct_drone_mission_info.waypoint_locaton.latitude",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "longitude",
+            "structures": "struct_drone_mission_info.waypoint_locaton.longitude",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ],
+    "struct_external_entity": [
+        {
+            "name": "action_type",
+            "structures": "struct_external_entity_list.struct_external_entity.action_type",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "external_entity_type",
+            "structures": "struct_external_entity_list.struct_external_entity.external_entity_type",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "external_entity_id",
+            "structures": "struct_external_entity_list.struct_external_entity.external_entity_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ],
+    "struct_gcs": [
+        {
+            "name": "gcs_type_id",
+            "structures": "struct_config_gcs.struct_gcs.gcs_type_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "gcs_model",
+            "structures": "struct_config_gcs.struct_gcs.gcs_model",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "gcs_vendor_name",
+            "structures": "struct_config_gcs.struct_gcs.gcs_vendor_name",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "gcs_protocol",
+            "structures": "struct_config_gcs.struct_gcs.gcs_protocol",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "gcs_role",
+            "structures": "struct_config_gcs.struct_gcs.gcs_role",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "range",
+            "structures": "struct_config_gcs.struct_gcs.range",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "flying_endurance",
+            "structures": "struct_config_gcs.struct_gcs.flying_endurance",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "action_type",
+            "structures": "struct_config_gcs.struct_gcs.action_type",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ],
+    "struct_indri": [
+        {
+            "name": "indri_id",
+            "structures": "struct_config_indri.struct_indri.indri_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "ip_address",
+            "structures": "struct_config_indri.struct_indri.ip_address",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "latitude",
+            "structures": "struct_config_indri.struct_indri.location.latitude",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "longitude",
+            "structures": "struct_config_indri.struct_indri.location.longitude",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "indri_name",
+            "structures": "struct_config_indri.struct_indri.indri_name",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "affiliated_agency_type",
+            "structures": "struct_config_indri.struct_indri.affiliated_agency_type",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "affiliated_agency_id",
+            "structures": "struct_config_indri.struct_indri.affiliated_agency_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "action_type",
+            "structures": "struct_config_indri.struct_indri.action_type",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "indri_status",
+            "structures": "struct_config_indri.struct_indri.indri_status",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "no_of_aor_points",
+            "structures": "struct_config_indri.struct_indri.no_of_aor_points",
+            "dyanamicStruct": "aor_point_lat_long",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "<<NestedStruct>>aor_point_lat_long"
+        }
+    ],
+    "aor_point_lat_long": [
+        {
+            "name": "latitude",
+            "structures": "struct_config_indri.struct_indri.aor_point_lat_long.latitude",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "longitude",
+            "structures": "struct_config_indri.struct_indri.aor_point_lat_long.longitude",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ],
+    "struct_passive_sensor": [
+        {
+            "name": "passive_sensor_type_id",
+            "structures": "struct_config_passive_sensor.struct_passive_sensor.passive_sensor_type_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "passive_sensor_name",
+            "structures": "struct_config_passive_sensor.struct_passive_sensor.passive_sensor_name",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "passive_sensor_type",
+            "structures": "struct_config_passive_sensor.struct_passive_sensor.passive_sensor_type",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "protocol",
+            "structures": "struct_config_passive_sensor.struct_passive_sensor.protocol",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "range",
+            "structures": "struct_config_passive_sensor.struct_passive_sensor.range",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "height",
+            "structures": "struct_config_passive_sensor.struct_passive_sensor.height",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "action_type",
+            "structures": "struct_config_passive_sensor.struct_passive_sensor.action_type",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ],
+    "struct_radar": [
+        {
+            "name": "radar_type_id",
+            "structures": "struct_config_radar.struct_radar.radar_type_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "radar_type",
+            "structures": "struct_config_radar.struct_radar.radar_type",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "range_accuracy",
+            "structures": "struct_config_radar.struct_radar.range_accuracy",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "azimuth_accuracy",
+            "structures": "struct_config_radar.struct_radar.azimuth_accuracy",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "minimum_range",
+            "structures": "struct_config_radar.struct_radar.minimum_range",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "maximum_range",
+            "structures": "struct_config_radar.struct_radar.maximum_range",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "scan_time",
+            "structures": "struct_config_radar.struct_radar.scan_time",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "max_elevation",
+            "structures": "struct_config_radar.struct_radar.max_elevation",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_min_speed",
+            "structures": "struct_config_radar.struct_radar.s_min_speed",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_max_speed",
+            "structures": "struct_config_radar.struct_radar.s_max_speed",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_min_height",
+            "structures": "struct_config_radar.struct_radar.s_min_height",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_max_height",
+            "structures": "struct_config_radar.struct_radar.s_max_height",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_manuever_rate",
+            "structures": "struct_config_radar.struct_radar.s_manuever_rate",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_height_accuracy",
+            "structures": "struct_config_radar.struct_radar.s_height_accuracy",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_speed_accuracy",
+            "structures": "struct_config_radar.struct_radar.s_speed_accuracy",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_course_accuracy",
+            "structures": "struct_config_radar.struct_radar.s_course_accuracy",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_azimuth_resolution",
+            "structures": "struct_config_radar.struct_radar.s_azimuth_resolution",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_range_resolution",
+            "structures": "struct_config_radar.struct_radar.s_range_resolution",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_pod",
+            "structures": "struct_config_radar.struct_radar.s_pod",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_north_misalignment",
+            "structures": "struct_config_radar.struct_radar.s_north_misalignment",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_tilt",
+            "structures": "struct_config_radar.struct_radar.s_tilt",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_tilt_bearing",
+            "structures": "struct_config_radar.struct_radar.s_tilt_bearing",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_no_of_reporting_points",
+            "structures": "struct_config_radar.struct_radar.s_no_of_reporting_points",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_nw_delay",
+            "structures": "struct_config_radar.struct_radar.s_nw_delay",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_rdp_delay",
+            "structures": "struct_config_radar.struct_radar.s_rdp_delay",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_min_elevation",
+            "structures": "struct_config_radar.struct_radar.s_min_elevation",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "s_max_track_capacity",
+            "structures": "struct_config_radar.struct_radar.s_max_track_capacity",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "action_type",
+            "structures": "struct_config_radar.struct_radar.action_type",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ],
+    "struct_sensor_contribution": [
+        {
+            "name": "sensor_track_no",
+            "structures": "struct_track_data.struct_sensor_contribution.sensor_track_no",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "sic",
+            "structures": "struct_track_data.struct_sensor_contribution.sic",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "indri_id",
+            "structures": "struct_track_data.struct_sensor_contribution.indri_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "latitude",
+            "structures": "struct_track_data.struct_sensor_contribution.struct_lat_long.latitude",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "longitude",
+            "structures": "struct_track_data.struct_sensor_contribution.struct_lat_long.longitude",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "height",
+            "structures": "struct_track_data.struct_sensor_contribution.height",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ],
+    "struct_system_contribution": [
+        {
+            "name": "external_system_type",
+            "structures": "struct_track_data.struct_system_contribution.external_system_type",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "ctn",
+            "structures": "struct_track_data.struct_system_contribution.ctn",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "latitude",
+            "structures": "struct_track_data.struct_system_contribution.struct_lat_long.latitude",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "longitude",
+            "structures": "struct_track_data.struct_system_contribution.struct_lat_long.longitude",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "height",
+            "structures": "struct_track_data.struct_system_contribution.height",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "speed",
+            "structures": "struct_track_data.struct_system_contribution.speed",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "course",
+            "structures": "struct_track_data.struct_system_contribution.course",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ],
+    "cat48_buffer": [
+        {
+            "name": "cat48_buffer",
+            "structures": "struct_sensor_track.cat48_buffer",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ],
+    "struct_sim_contribution": [
+        {
+            "name": "indri_id",
+            "structures": "struct_sim_track_data.struct_sim_contribution.indri_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "sic",
+            "structures": "struct_sim_track_data.struct_sim_contribution.sic",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "indri_input_source",
+            "structures": "struct_sim_track_data.struct_sim_contribution.indri_input_source",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ],
+    "cat62_buffer": [
+        {
+            "name": "cat62_buffer",
+            "structures": "struct_system_track.cat62_buffer",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ],
+    "struct_wco": [
+        {
+            "name": "cp_node_id",
+            "structures": "struct_wco_list.struct_wco.cp_node_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "cp_parent_node_id",
+            "structures": "struct_wco_list.struct_wco.cp_parent_node_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "control_order_id",
+            "structures": "struct_wco_list.struct_wco.control_order_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "control_order_type",
+            "structures": "struct_wco_list.struct_wco.control_order_type",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "day",
+            "structures": "struct_wco_list.struct_wco.date_time_of_transmission.date.day",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "month",
+            "structures": "struct_wco_list.struct_wco.date_time_of_transmission.date.month",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "year",
+            "structures": "struct_wco_list.struct_wco.date_time_of_transmission.date.year",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "hours",
+            "structures": "struct_wco_list.struct_wco.date_time_of_transmission.time.hours",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "minutes",
+            "structures": "struct_wco_list.struct_wco.date_time_of_transmission.time.minutes",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "seconds",
+            "structures": "struct_wco_list.struct_wco.date_time_of_transmission.time.seconds",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "millisecond",
+            "structures": "struct_wco_list.struct_wco.date_time_of_transmission.time.millisecond",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "day",
+            "structures": "struct_wco_list.struct_wco.date_time_from.date.day",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "month",
+            "structures": "struct_wco_list.struct_wco.date_time_from.date.month",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "year",
+            "structures": "struct_wco_list.struct_wco.date_time_from.date.year",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "hours",
+            "structures": "struct_wco_list.struct_wco.date_time_from.time.hours",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "minutes",
+            "structures": "struct_wco_list.struct_wco.date_time_from.time.minutes",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "seconds",
+            "structures": "struct_wco_list.struct_wco.date_time_from.time.seconds",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "millisecond",
+            "structures": "struct_wco_list.struct_wco.date_time_from.time.millisecond",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "day",
+            "structures": "struct_wco_list.struct_wco.date_time_to.date.day",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "month",
+            "structures": "struct_wco_list.struct_wco.date_time_to.date.month",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "year",
+            "structures": "struct_wco_list.struct_wco.date_time_to.date.year",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "hours",
+            "structures": "struct_wco_list.struct_wco.date_time_to.time.hours",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "minutes",
+            "structures": "struct_wco_list.struct_wco.date_time_to.time.minutes",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "seconds",
+            "structures": "struct_wco_list.struct_wco.date_time_to.time.seconds",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "millisecond",
+            "structures": "struct_wco_list.struct_wco.date_time_to.time.millisecond",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "remarks",
+            "structures": "struct_wco_list.struct_wco.remarks",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ],
+    "struct_weapon_engage": [
+        {
+            "name": "track_no",
+            "structures": "struct_weapon_engage_list.struct_weapon_engage.track_no",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "rasp_track_no",
+            "structures": "struct_weapon_engage_list.struct_weapon_engage.rasp_track_no",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "is_engaged",
+            "structures": "struct_weapon_engage_list.struct_weapon_engage.is_engaged",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "indri_id",
+            "structures": "struct_weapon_engage_list.struct_weapon_engage.indri_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "indri_parent_agency_id",
+            "structures": "struct_weapon_engage_list.struct_weapon_engage.indri_parent_agency_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        },
+        {
+            "name": "adcp_id",
+            "structures": "struct_weapon_engage_list.struct_weapon_engage.adcp_id",
+            "dyanamicStruct": "",
+            "staticStructSize": 0,
+            "defaultInput": 0
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+-----------------------------------------------------
+        USE THIS TEMPLETE FOR TASK LOGGING
+-----------------------------------------------------
+		IMPORTANT POINTS
+-----------------------------------------------------
+
+
+
+
+
+-----------------------------------------------------
+                    START
+-----------------------------------------------------
+
+1. Duplicate Test suite name should not be able to create  [Done]
+2. Test case name should be unique in Test Suite   [Done]
+3. To make SNS test plan, delete and import plan generated from another exe [X]
+4. Preconditions [under process]
+5. Fill header necessary data in ui
+
+
+
+
+
+-----------------------------------------------------
