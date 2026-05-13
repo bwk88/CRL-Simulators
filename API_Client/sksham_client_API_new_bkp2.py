@@ -354,7 +354,7 @@ tk.Label(top_frame, text="Select API:", bg="white",
 
 api_dropdown = AutocompleteCombobox(top_frame,
                             completevalues=list(API_CONFIG.keys()),
-                            state="readonly", width=45)
+                            width=45)
 api_dropdown.pack(side="left", padx=10)
 api_dropdown.bind("<<ComboboxSelected>>", on_api_select)
 
