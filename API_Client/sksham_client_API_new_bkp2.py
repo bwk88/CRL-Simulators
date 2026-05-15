@@ -219,7 +219,7 @@ def call_api():
         selected = api_dropdown.get()
 
     api_data = API_CONFIG[selected]
-
+    print("api_data ",api_data)
     url = f"{BASE_URL}{api_data['URL']}"
     print("API_Called: ", url)
     
