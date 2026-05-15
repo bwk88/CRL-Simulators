@@ -1,0 +1,2 @@
+2026-05-15 22:14:33,286 qt_material must be imported after PySide or PyQt!
+2026-05-15 22:14:33,649 name 'QFontDatabase' is not defined

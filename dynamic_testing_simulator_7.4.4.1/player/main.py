@@ -11,6 +11,8 @@ import threading
 from PyQt5 import QtWidgets
 import udpreceiver
 from Configuration import config
+from PyQt5.QtCore import Qt
+from qt_material import apply_stylesheet
 import sys
 from SNS.saveSendPeriodic import saveSendPeriodic
 
@@ -34,9 +36,14 @@ def closedThreads():
         i.join()
       
 if __name__ == "__main__":
+    QtWidgets.QApplication.setAttribute(Qt.AA_EnableHighDpiScaling, True)
+    QtWidgets.QApplication.setAttribute(Qt.AA_UseHighDpiPixmaps, True)
     app = QtWidgets.QApplication(sys.argv)
+    app.setStyle("Fusion")
+    apply_stylesheet(app, theme='dark_teal.xml')
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
+    # ui.setStyle('Fusion')
     ui.setupUi(MainWindow)
     MainWindow.show()
     config.set_display(ui)  
