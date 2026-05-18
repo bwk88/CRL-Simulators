@@ -37,8 +37,10 @@ from PyQt5.QtWidgets import (
     QScrollArea,
     QFrame,
     QMessageBox,
+    QTreeWidget,
+    QTreeWidgetItem,
+    QSpinBox
 )
-
 from PyQt5.QtCore import Qt, QThread, pyqtSignal
 
 
